@@ -268,12 +268,12 @@ module.exports = Taira = async (Taira, m, chatUpdate, store) => {
       "externalAdReply": {
       "showAdAttribution": true,
       "containsAutoReply": true,
-      "title": `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+      "title": `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
       "body": `${global.OwnerName}`,
       "previewType": "PHOTO",
       "thumbnailUrl": ``,
       "thumbnail": fs.readFileSync(`./Assets/pic7.jpg`),
-      "sourceUrl": `https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K`}}},
+      "sourceUrl": `https://chat.whatsapp.com/DDTeSuCbP4BLgBkEqNoUqg`}}},
       { quoted: m})
 	  }
 
@@ -763,10 +763,9 @@ Typed *surrender* to surrender and admited defeat`
 ┃✗ 🏷️ Effortless Member Tagging
 ┃✗ 🕰️ Timeless View-once Pics
 ┃✗ 🎮 designing of game fonts or name
-┃✗ 📅 Message Scheduler
-┃✗ 📲 Offline Message Scheduler
-📞 For inquiries, Taira Makino at +2347080968564
-Transform your WhatsApp world now!🌟. We are trustworthy 👍
+┃✗ 📅 Message Scheduler contact +919883457657
+┃✗ 📲 Offline Message Scheduler📞 For inquiries,
+┃✗Transform your WhatsApp world now!🌟. We are trustworthy 👍
 ┗━━━━━━━━━━━━━━━━━⦿`,
   ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
   'good afternoon': `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
@@ -837,7 +836,7 @@ const smallinput = budy.toLowerCase();
         Taira.sendMessage(from, { react: { text: "❤", key: m.key } })
 
         let { data } = await axios.get('https://api.github.com/repos/Anonphoenix007/MAKINO-MD-V2');
-        teks = `* 🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/Anonphoenix007/MAKINO-MD-V2\n\nDont forget to follow Me *GitHub* https://github.com/anonphoenix007 and give a ⭐️ to my projects. `
+        teks = `* ANJAN-MD-V2 Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/Anjan-Ser/ANJAN-MD-V2\n\nDont forget to follow Me *GitHub* https://github.com/Anjan-Ser and give a ⭐️ to my projects. `
         /*  let buttons = [
           {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
           ] */
@@ -850,14 +849,14 @@ const smallinput = budy.toLowerCase();
            headerType: 4, */
           contextInfo: {
             externalAdreply: {
-              title: "🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ",
+              title: "𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2",
               body: " ",
-              thumbnailUrl: "https://graph.org/file/b06744135f2f12ec4b4be.jpg",
+              thumbnailUrl: "https://i.imgur.com/MJpl83g.jpeg",
               mediaType: 1,
               //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
               //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-              mediaUrl: 'github.com/anonphoenix007/MAKINO-MD-V2',
-              sourceUrl: "https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K"
+              mediaUrl: 'github.com/Anjan-Ser/ANJAN-MD-V2',
+              sourceUrl: "https://chat.whatsapp.com/DDTeSuCbP4BLgBkEqNoUqg"
             }
           }
 
@@ -884,8 +883,8 @@ const smallinput = budy.toLowerCase();
 
           await Taira.sendMessage(from, { react: { text: "❤", key: m.key } });
 
-          let { data } = await axios.get('https://api.github.com/repos/anonphoenix007/MAKINO-MD-V2');
-          let teks = `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/anonphoenix007/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
+          let { data } = await axios.get('https://api.github.com/repos/Anjan-Ser/ANJAN-MD-V2');
+          let teks = `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/Anjan-Ser\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -899,18 +898,18 @@ const smallinput = budy.toLowerCase();
                     text: teks
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "By Tᴀɪʀᴀ Mᴀᴋɪɴᴏ"
+                    text: "𝚫𝚴𝐉𝚫𝚴 𝚳𝐃"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    title: "©Tᴀɪʀᴀ•Mᴀᴋɪɴᴏ2024",
-                    subtitle: "🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ",
+                    title: "𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2",
+                    subtitle: "𝚫𝚴𝐉𝚫𝚴 𝚳𝐃",
                     hasMediaAttachment: false
                   }),
                   nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                     buttons: [
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Repository\",\"url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\",\"merchant_url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\"}"
+                        "buttonParamsJson": "{\"display_text\":\"Repository\",\"url\":\"https://github.com/Anjan-Ser/ANJAN-MD-V2\",\"merchant_url\":\"https://github.com/Anjan-Ser/ANJAN-MD-V2\"}"
                       }
                     ]
                   })
@@ -943,8 +942,7 @@ const smallinput = budy.toLowerCase();
       case 'sysinfo': {
 
         const respon = `
-  🤖 *🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ
-        b Server Info* 🤖
+  🤖 *Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -1060,7 +1058,7 @@ case 'tovv': {
         getServerIp()
           .then(serverIp => {
             if (serverIp) {
-              const message = `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ server address is: ${serverIp}`;
+              const message = ` 𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2 server address is: ${serverIp}`;
               Taira.sendMessage(from, { text: message }, { quoted: m });
             } else {
               Taira.sendMessage(from, { text: 'Failed to fetch server IP address.' }, { quoted: m });
@@ -1132,7 +1130,7 @@ break;
             global.statusseen = true;
             return m.reply('Auto-Status is now enabled.');
           } else {
-            global.statusseen = false;
+            global.statusseen = true;
             return m.reply('Auto-Status is now disabled.');
           }
         } else {
@@ -1238,10 +1236,10 @@ break;
         if (!text) return reply(`please provide a report message you want to deliver`)
         if (text.length > 300) return reply(`Are you trying to send virus!`)
         const txtmsg = `*📮 Report Message*\n\n*Sender ➛* wa.me/${m.sender.split("@")[0]}\n\n*Group Name ➛* ${groupName}\n\n*Message ➛*  ${text}`
-        for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '6297175943@s.whatsapp.net'))
+        for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '919883457657s.whatsapp.net'))
           await Taira.sendMessage(`${mod}`, { text: `${txtmsg}` }, { quoted: m })
-        await Taira.sendMessage(`2347080968564@s.whatsapp.net`, { text: `${txtmsg}`, { quoted: m })
-        reply(`*✅ Your Report has been submitted Successfully to Taira Makino*\n\n*You will get response shortly... ♥️*`);
+        await Taira.sendMessage(`919883457657@s.whatsapp.net`, { text: `${txtmsg}`, { quoted: m })
+        reply(`*✅ Your Report has been submitted Successfully to ANJAN-MD-V2*\n\n*You will get response shortly... ♥️*`);
       }
         break;*/
 
@@ -1762,7 +1760,7 @@ break;
 
         reply(`
         *╭════════════════ ⪩*
-        *┃〘 *🐦Makino-md-v2* 〙*
+        *┃〘 *🐦Anjan-md-v2* 〙*
         *╰════════════════ ⪨!*\n\n
          bonk
          cry
@@ -1971,7 +1969,7 @@ break;
         let buttonMessage = {
           image: { url: hasil.image },
           caption: `Title : ${hasil.title}\nSource : ${hasil.source}\nMedia Url : ${hasil.image}`,
-          footer: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          footer: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           buttons: buttons,
           headerType: 4
         }
@@ -2005,7 +2003,7 @@ break;
               from,
               {
                 text: "Anime Search",
-                footer: '🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+                footer: '𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2',
                 title: OwnerName,
                 buttonText: "Search Results",
                 sections
@@ -2661,7 +2659,7 @@ break;
 
       case 'getcase':
         if (isBan) return reply(mess.banned);
-        if (m.sender != '2347080968564@s.whatsapp.net') { return; }
+        if (m.sender != '919883457657@s.whatsapp.net') { return; }
 
         if (isBanChat) return reply(mess.bangc);
 
@@ -2680,7 +2678,7 @@ break;
         if (isBanChat) return reply(mess.bangc);
 
 
-        if (m.sender !== '2347080968564@s.whatsapp.net') {
+        if (m.sender !== '919883457657@s.whatsapp.net') {
           return reply('You are not authorized to use this command.');
         }
 
@@ -2856,7 +2854,7 @@ break;
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-        let teks = ` 「  🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ pm user list  」\n\nTotal ${anu.length} users are using 🐦Makino-md-v2 in personal chat.`
+        let teks = ` 「  𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2 pm user list  」\n\nTotal ${anu.length} users are using Anjan-md-v2 in personal chat.`
         for (let i of anu) {
           teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
         }
@@ -2889,7 +2887,7 @@ break;
       case 'speedtest': case 'speedcheck': {
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        m.reply(`Wait,Testing Speed... ⚙️`)
+        m.reply(`Wait,Testing Speed ANJAN-MD-V2... ⚙️`)
         let cp = require('child_process')
         let { promisify } = require('util')
         let exec = promisify(cp.exec).bind(cp)
@@ -3489,9 +3487,9 @@ break;
         Taira.sendMessage(from, { react: { text: "⚠️", key: m.key } })
 
         if (args[0] === "on") {
-          if (isBanChat) return reply('This Group is Already Banned from using 🐦Makino-md-v2!');
+          if (isBanChat) return reply('This Group is Already Banned from using Anjan-md-v2!');
           banchat.push(from);
-          reply('This Group has been banned from using 🐦Makino-md-v2!');
+          reply('This Group has been banned from using Anjan-md-v2!');
 
           var groupe = await Taira.groupMetadata(from);
           var members = groupe['participants'];
@@ -3502,10 +3500,10 @@ break;
 
           Taira.sendMessage(from, { text: `\`\`\`「 Notice 」\`\`\`\n\nThis group is banned from using the bot. So, here nobody can use me anymore!`, contextInfo: { mentionedJid: mems } }, { quoted: m });
         } else if (args[0] === "off") {
-          if (!isBanChat) return reply('This Group is Already Banned from using 🐦Makino-md-v2!');
+          if (!isBanChat) return reply('This Group is Already Banned from using Anjan-md-v2!');
           let off = banchat.indexOf(from);
           banchat.splice(off, 1);
-          reply('This Group has been *unbanned* from using 🐦Makino-md-v2!');
+          reply('This Group has been *unbanned* from using Anjan-md-v2!');
         } else {
           reply('Please choose either *"on"* or *"off"* to ban or unban the group from using the bot.');
         }
@@ -3586,7 +3584,7 @@ break;
         if (!m.isGroup) return reply(mess.grouponly);
         if (!isAdmins && !isCreator) return reply(mess.useradmin)
         Taira.sendMessage(from, { react: { text: "😳", key: m.key } })
-        let teks = `「 🐦Makino-md-v2 」
+        let teks = `「 Anjan-md-v2 」
 
 *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
         for (let mem of participants) {
@@ -3597,7 +3595,7 @@ break;
         break;
 
 
-      case 'hidetag': case 'tag': case 'ping': {
+      case 'hidetag': case 'tag': case 'h': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!m.isGroup) return reply(mess.grouponly);
@@ -3779,8 +3777,8 @@ break;
           let buttonMessage = {
             image: BotLogo,
             jpegThumbnail: Thumb,
-            caption: `*「 🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ 」*\n\n_Group Setting Changer tool_:\n\nIf you want to Group close *-group close*\n\nIf you want to Group Oepn *-group open*`,
-            footer: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+            caption: `*「 𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2」*\n\n_Group Setting Changer tool_:\n\nIf you want to Group close *-group close*\n\nIf you want to Group Oepn *-group open*`,
+            footer: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃`,
             headerType: 4
           }
           Taira.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3839,7 +3837,7 @@ break;
         if (!isAdmins && !isCreator) return reply(mess.useradmin)
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!text) return reply(`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 916297175943`)
+        if (!text) return reply(`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 919883457657`)
         if (text.includes('+')) return reply(`Enter the number together without *+*`)
         if (isNaN(text)) return reply(`Enter only the numbers plus your country code without spaces`)
         let group = m.chat
@@ -4546,7 +4544,7 @@ break;
         if (!args[0]) return reply(`Example: ${prefix + command} <query>\nUses : ${prefix + command} anything...`)
         let google = require('google-it')
         google({ 'query': args.join(" ") }).then(res => {
-          let teks = `「 *🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ* 」\n\n*Search term:* ${text}\n\n\n`
+          let teks = `「 *ANJAN-MD-V2* 」\n\n*Search term:* ${text}\n\n\n`
           for (let g of res) {
             teks += `*Title* : ${g.title}\n\n`
             teks += `*Description* : ${g.snippet}\n\n`
@@ -4772,7 +4770,7 @@ break;
           Taira.sendMessage(from, {
             video: { url: args[0] }, caption: "Succes!", contextInfo: {
               externalAdreply: {
-                title: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+                title: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
                 body: `${global.OwnerName}`,
                 thumbnail: BotLogo,
                 mediaType: 2,
@@ -5070,7 +5068,7 @@ _Click the button below to download_`
         if (!args.join(" ")) return reply(`Example : -yts Heat waves`)
         let yts = require("youtube-yts")
         let search = await yts(args.join(" "))
-        let teks = '```「 🐦Makino-md-v2 YTS 」```\n\n Search Term: ' + text + '\n\n'
+        let teks = '```「 𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2 YTS 」```\n\n Search Term: ' + text + '\n\n'
         let no = 1
         for (let i of search.all) {
           teks += `Result No : ${no++}\n\nTitle : ${i.title}\n\nViews : ${i.views}\n\nDuration : ${i.timestamp}\n\nUploaded : ${i.ago}\n\nAuthor : ${i.author.name}\n\nUrl : ${i.url}\n\n\n-----------------------------------------------------------------------------\n\n\n`
@@ -5151,7 +5149,7 @@ _Click the button below to download_`
       case 'music': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
-        Taira.sendMessage(from, { react: { text: "🎵", key: m.key } });
+        Taira.sendMessage(from, { react: { text: "🌸", key: m.key } });
 
         const YT = require('./lib/ytdl-core');
         const yts = require('youtube-yts');
@@ -5192,7 +5190,7 @@ _Click the button below to download_`
                mentionedJid: [m.sender],
                externalAdReply: {
                title: "↺ |◁   II   ▷|   ♡",
-               body: `🐦Makino-md-v2 Now playing: ${anu.title}`,
+               body: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2: ${anu.title}`,
                thumbnailUrl: thumbnailUrl,
                sourceUrl: "https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K",
                mediaType: 1,
@@ -5250,7 +5248,7 @@ _Click the button below to download_`
         let search = await yts(text)
         let anu = search.videos[0]
         const ytmp4play = await YT.mp4(anu.url)
-        Taira.sendMessage(from, { video: { url: ytmp4play.videoUrl }, mimetype: "video/mp4", caption: anu.title + ' By *Taira MD*', }, { quoted: m })
+        Taira.sendMessage(from, { video: { url: ytmp4play.videoUrl }, mimetype: "video/mp4", caption: anu.title + ' By *ANJAN MD*', }, { quoted: m })
       }
 
         break;
@@ -5305,7 +5303,7 @@ _Click the button below to download_`
         const YT = require('./lib/ytdl-core')
         const ytmp3play2 = await YT.mp3(text)
 
-        await Taira.sendMessage(from, { document: fs.readFileSync(ytmp3play2.path), fileName: 'Taira_YTmp3_Downloader.mp3', mimetype: 'audio/mpeg', }, { quoted: m })
+        await Taira.sendMessage(from, { document: fs.readFileSync(ytmp3play2.path), fileName: 'ANJAN-YTmp3_Downloader.mp3', mimetype: 'audio/mpeg', }, { quoted: m })
       }
         break;
 
@@ -5316,7 +5314,7 @@ _Click the button below to download_`
         Taira.sendMessage(from, { react: { text: "🍁", key: m.key } })
         const YT = require('./lib/ytdl-core')
         const ytmp4play2 = await YT.mp4(text)
-        Taira.sendMessage(from, { video: { url: ytmp4play2.videoUrl }, mimetype: "video/mp4", caption: 'Downloaded by *Taira MD*', }, { quoted: m })
+        Taira.sendMessage(from, { video: { url: ytmp4play2.videoUrl }, mimetype: "video/mp4", caption: 'Downloaded by *Anjan MD*', }, { quoted: m })
       }
         break;
 
@@ -5337,7 +5335,7 @@ _Click the button below to download_`
           const data = await getLyrics(text);
 
           const message = `
-        *🐦Makino-md-v2 lyrics*
+        *🐦Anjan-md-v2 lyrics*
         *Title:* ${text}
         *Artist:* ${data.artist}
         *Album:* ${data.album}
@@ -5517,7 +5515,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!args.join(" ")) return reply(`use -take 🐦Makino-md-v2|By: Tᴀɪʀᴀ Mᴀᴋɪɴᴏ`)
+        if (!args.join(" ")) return reply(`use -take 🐦anjan-md-v2|`)
         const swn = args.join(" ")
         const pcknm = swn.split("|")[0];
         const atnm = swn.split("|")[1];
@@ -5565,12 +5563,12 @@ _Click the button below to download_`
         Taira.sendMessage(from, { react: { text: "🌝", key: m.key } })
         if (/image/.test(mime)) {
           let media = await quoted.download()
-          let encmedia = await Taira.sendImageAsSticker(m.chat, media, m, { packname: '🐦Makino-md-v2', author: global.author })
+          let encmedia = await Taira.sendImageAsSticker(m.chat, media, m, { packname: '𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2', author: global.author })
           await fs.unlinkSync(encmedia)
         } else if (/video/.test(mime)) {
           if ((quoted.msg || quoted).seconds > 11) return reply('Maximum 10 seconds!')
           let media = await quoted.download()
-          let encmedia = await Taira.sendVideoAsSticker(m.chat, media, m, { packname: '🐦Makino-md-v2', author: global.author })
+          let encmedia = await Taira.sendVideoAsSticker(m.chat, media, m, { packname: '𝚫𝚴𝐉𝚫𝚴 𝚳𝐃', author: global.author })
           await fs.unlinkSync(encmedia)
         } else {
           reply(`Send Image/Video With Caption ${prefix + command}\nVideo Duration 1-9 Seconds`)
@@ -6076,7 +6074,7 @@ _Click the button below to download_`
 ] */
         let button1ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           /*  footer: `${global.BotName}`,
             buttons: wbuttsss,
             headerType: 4 */
@@ -6101,7 +6099,7 @@ _Click the button below to download_`
    ] */
         let button12ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           /* footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4 */
@@ -6123,7 +6121,7 @@ _Click the button below to download_`
           ]  */
         let xx1button3Messages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           /*  buttons: xxhnekobot,
           headerType: 1 */
         }
@@ -6144,7 +6142,7 @@ _Click the button below to download_`
 ] */
         let button112ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           /*   footer: `${global.BotName}`,
              buttons: wbuttsss,
              headerType: 4 */
@@ -6217,7 +6215,7 @@ _Click the button below to download_`
         ]
         let buttonssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
           footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4
@@ -6558,8 +6556,8 @@ _Click the button below to download_`
         ]
         let wal = {
           image: { url: wallpaper[i].image },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
-          footer: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2`,
+          footer: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃`,
           buttons: walb,
           headerType: 4
         }
@@ -6698,7 +6696,7 @@ _Click the button below to download_`
           ] */
         let button4Messagess = {
           image: { url: waifuddd.data.url },
-          caption: '🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+          caption: '𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2',
           /*buttons: wbuttsssr,
           headerType: 4 */
         }
@@ -6845,7 +6843,7 @@ _Click the button below to download_`
           await Taira.sendMessage(from, { react: { text: "📄", key: m.key } });
          const helpMenuText = `
 ╭════════════════ ⪩
-┃〘 *☛🐦Makino-md-v2☚* 〙
+┃〘 *💥ANJAN-MD-V2💥* 〙
 ╰════════════════ ⪨
 ╭════════════════ ⪩
 ┃
@@ -6858,15 +6856,13 @@ _Click the button below to download_`
 ┃   *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
 ┃   *RAM  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*
 ┃   ⌯CPU :* ${totalCpuUsage}%
-┃   *Developer : Tᴀɪʀᴀ Mᴀᴋɪɴᴏ*
-┃
 ╰════════════════ ⪨
 
  ✧✧✧✧✧✧✧✧✧✧✧✧✧ 
  
 ╭════════════════ ⪩
 ┃〘 *Command list* 〙
-╰════════════════ ⪨ ${readmore}
+╰════════════════ ⪨ 
 ╭═══════════════ ⪩
 ╰╮╰┈➤ *CORE*
 ╭═══════════════ ⪩
@@ -6904,7 +6900,7 @@ _Click the button below to download_`
 ┃ • ʙᴀɴ ᴅᴇʟ
 ┃ • getcase
 ┃ • 
-╰════════════════ ⪨
+╰════════════════ ⪨ ${readmore}
 ╭═══════════════ ⪩
 ╰╮╰┈➤ *GROUP*
 ╭═══════════════ ⪩
@@ -7109,41 +7105,17 @@ _Click the button below to download_`
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ"
+                    text: "            𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/b06744135f2f12ec4b4be.jpg' } }, { upload: Taira.waUploadToServer })),
 
 
-                    title: "                      Command list",
+                    title: "                       list of command",
                     subtitle: "Browse through the available commands",
                     hasMediaAttachment: false
                   }),
-                  nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-                    buttons: [
-                      {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"OWNER 🫠","id":'${prefix}owner'}`
-                      },
-                      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/anonphoenix007/MAKINO-MD-V2","merchant_url":"https://github.com/anonphoenix007/MAKINO-MD-V2"}`
-
-                      },
-                      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Channel 📰","url":"https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K","merchant_url":"https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K"}`
-                      },
-                      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Taira 🫡","url":"https://wa.me/2347080968564","merchant_url":"https://wa.me/2347080968564"}`
-                      }
-                    ]
-                  })
-                })
-              }
-            }
-          }, {});
+                {});
 
 
           if (!msg || !msg.key || !msg.key.remoteJid || !msg.key.id) {
@@ -7170,7 +7142,7 @@ _Click the button below to download_`
           if (isBanChat) return reply(mess.bangc);
           Taira.sendMessage(from, { react: { text: "✨", key: m.key } })
 
-          reply(`Hi ${pushname}👋 ,I am MAKINO-MD-V2 by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ. Do you need any help ?`)
+          reply(`Hi ${pushname}👋 ,I am ANJAN-MD-V2 by ANJAN. Do you need any help ?`)
         }
 
         break;
