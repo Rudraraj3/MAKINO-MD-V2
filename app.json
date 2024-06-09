@@ -1,13 +1,13 @@
 
 {
-    "name": "MAKINO-MD-V2",
-    "description": "A whatsApp bot based on Baileysjs linrary (Ts+Js) with Multi Device support",
-    "repository": "https://github.com/anonphoenix007/MAKINO-MD-V2",
-    "logo": "https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg",
+    "name": "ANJAN-MD-V2",
+    "description": "A whatsApp bot based on Baileys",
+    "repository": "https://github.com/Anjan-Ser/ANJAN-MD-V2",
+    "logo": "https://i.imgur.com/MJpl83g.jpeg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "env": {
      "sessID": {
-      "description": "Must put session ID.",
+      "description": "Must put session ID ANJAN-MD-V2 otherwise bot not work..",
       "required": true,
       "value": ""
     }
