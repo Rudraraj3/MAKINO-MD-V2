@@ -1,7 +1,7 @@
 {
-    "name": "MAKINO-MD-V2",
+    "name": "ANJAN-MD-V2",
     "version": "3.0.0",
-    "description": "MAKINO-MD-V2 is a WhatsApp multiDevice Bot  in Javascript using the Baileys module to make your WhatsApp experience easier.",
+    "description": "ANJAN-MD-V2 is a WhatsApp multiDevice Bot  in Javascript using the Baileys module.",
     "main": "index.js",
     "directories": {
         "lib": "lib"
@@ -12,17 +12,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/anonphoenix007/MAKINO-MD-V2.git"
+        "url": "git+https://github.com/Anjan-Ser/ANJAN-MD-V2.git"
     },
     "keywords": [
         "md-bot"
     ],
-    "author": "Taira Makino",
+    "author": "ANJAN-SER",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/anonphoenix007/MAKINO-MD-V2/issues"
+        "url": "https://github.com/Anjan-Ser/ANJAN-MD-V2/issues"
     },
-    "homepage": "https://github.com/anonphoenix007/MAKINO-MD-V2#readme",
+    "homepage": "https://github.com/Anjan-Ser/ANJAN-MD-V2#readme",
     "devDependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
