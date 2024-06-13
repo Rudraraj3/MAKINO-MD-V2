@@ -835,8 +835,8 @@ const smallinput = budy.toLowerCase();
         if (isBanChat) return reply(mess.bangc);
         Taira.sendMessage(from, { react: { text: "❤", key: m.key } })
 
-        let { data } = await axios.get('https://api.github.com/repos/Anonphoenix007/MAKINO-MD-V2');
-        teks = `* ANJAN-MD-V2 Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/Anjan-Ser/ANJAN-MD-V2\n\nDont forget to follow Me *GitHub* https://github.com/Anjan-Ser and give a ⭐️ to my projects. `
+        let { data } = await axios.get('https://api.github.com/repos/Mranjan101/Mr-anjannewbot');
+        teks = `* ANJAN-MD-V2 Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/Mranjan101/Mr-anjannewbot\n\nDont forget to follow Me *GitHub* https://github.com/Mranjan101 and give a ⭐️ to my projects. `
         /*  let buttons = [
           {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
           ] */
@@ -883,8 +883,8 @@ const smallinput = budy.toLowerCase();
 
           await Taira.sendMessage(from, { react: { text: "❤", key: m.key } });
 
-          let { data } = await axios.get('https://api.github.com/repos/Anjan-Ser/ANJAN-MD-V2');
-          let teks = `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/Anjan-Ser\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
+          let { data } = await axios.get('https://api.github.com/repos/Mranjan101/Mr-anjannewbot');
+          let teks = `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/Mranjan101 \n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -5192,7 +5192,7 @@ _Click the button below to download_`
                title: "↺ |◁   II   ▷|   ♡",
                body: `𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2: ${anu.title}`,
                thumbnailUrl: thumbnailUrl,
-               sourceUrl: "https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K",
+               sourceUrl: "https://wa.me/919883457657?text=𝗛𝗘𝗟𝗢🔮🎊",
                mediaType: 1,
                renderLargerThumbnail: true
                }
