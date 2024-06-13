@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startTaira() {
   console.log(
     color(
-      figlet.textSync("ANJAN-V2", {
+      figlet.textSync("𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,8 +62,8 @@ async function startTaira() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Anjan,Developer of ANJAN-MD-V2.\n\nThanks for using: My Bot.', 'aqua'))
-  console.log(color('\n Follow me on GitHub: https://github.com/Anjan-Ser', 'aqua'))
+  console.log(color('\nHello, I am Anjan,Developer of 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 .\n\nThanks for using: My Bot.', 'aqua'))
+  console.log(color('\n Follow me on GitHub: OfficialAnjanv2', 'aqua'))
 const conf = require("./config");
 async function sess(){
 console.log("")
@@ -77,7 +77,7 @@ console.log("")
     version: [2, 2413, 1],
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["ANJAN-V2", "Safari", "3.O"],
+    browser: ["MR-ANJAN", "Safari", "3.O"],
     auth: state,
   });
 
@@ -134,10 +134,10 @@ console.log("")
       if (pea[0].announce == true) {
         //Taira.send5ButImg(pea[0].id, `Group has been *Closed!* Only *Admins* can send Messages!`, `BelugaBot-MD`, wm_fatih, [])
   
-        Taira.sendMessage(anu.id, { image: wm_fatih, caption: `〖 *Group settings changed* 〗\nGroup settings has been changed\n Now Only Admin can send message.`})
+        Taira.sendMessage(anu.id, { image: wm_fatih, caption: `〖 *Group settings changed* 〗\nGroup settings has been changed\n Now Only Admin can send messages\n\n𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 `})
       } else if (pea[0].announce == false) {
         // Taira.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `BelugaBot-MD`, wm_fatih, [])
-        Taira.sendMessage(anu.id, { image: wm_fatih, caption: `〖 *Group settings changed* 〗\nGroup settings has been changed\n Now everyone can send messages.`})
+        Taira.sendMessage(anu.id, { image: wm_fatih, caption: `〖 *Group settings changed* 〗\nGroup settings has been changed\n Now everyone can send messages\n\n𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 `})
       } else if (pea[0].restrict == true) {
         //Taira.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `BelugaBot-MD`, wm_fatih, [])
         Taira.sendMessage(anu.id, { image: wm_fatih, caption: `〖 *Group settings changed* 〗\nGroup Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`})
@@ -261,7 +261,7 @@ Taira.ev.on('group-participants.update', async (anu) => {
       try {
         ppgroup = await Taira.profilePictureUrl(anu.id, 'image')
       } catch {
-        ppgroup = 'https://i.imgur.com/MJpl83g.jpeg'
+        ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
       }
 
       let targetname = await Taira.getName(num)
@@ -273,7 +273,7 @@ Taira.ev.on('group-participants.update', async (anu) => {
           let WAuserName = num
           Tairatext = `
 Hello @${WAuserName.split("@")[0]} 👋,
-ANJAN-MD-V2  Says Welcome 🤗.
+𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋  by 𝐚𝐧𝐣𝐚𝐧👀🦋  Says Welcome 🤗.
 
 Welcome to ${metadata.subject}.
 
@@ -298,7 +298,7 @@ Okay Bye 👋, @${WAuserName.split("@")[0]},
 Another human left🥲!
 
 
-ANJAN-MD-V2 says Sayonara 🤧.
+𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 says Sayonara 🤧.
 `
 
           let buttonMessage = {
@@ -451,11 +451,11 @@ return await Taira.forwardMessage(m.sender, quoted,{contextInfo:{ isForwarded: f
         }
         if (connection === "open") {
           console.log("Connection to WhatsApp successful ✅");
-          console.log("Welcome to ANJAN-MD-V2 ✨");
+          console.log("Welcome to 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋  ✨");
           const packageVersion = require("./package.json").version;
           const long = String.fromCharCode(8206);
           const readmore = long.repeat(4001); 
-          let message = ` *🔥⃝ANJAN-MD-V2 Connected🔥${readmore}*\n\n *Version:* ${packageVersion}\n\n *prefix* ${global.prefa}.\n *ANY PROBLEM MY DEVELOPERS CONTACT US :-+919883457657*`
+          let message = `𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋  Connected 📎${readmore}\n\nVersion: ${packageVersion}\n\n Default prefix is ${global.prefa}.\nChange your prefix with the setprefix command`
           await Taira.sendMessage(Taira.user.id, {text: message })
           };
     if (connection === "close") {
