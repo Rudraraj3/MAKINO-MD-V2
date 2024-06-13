@@ -6840,7 +6840,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
 
         try {
-          await Taira.sendMessage(from, { react: { text: "📄", key: m.key } });
+          await Taira.sendMessage(from, { react: { text: "✨️", key: m.key } });
          const helpMenuText = `
 ╭════════════════ ⪩
 ┃〘 *💥ANJAN-MD-V2💥* 〙
@@ -7108,7 +7108,7 @@ _Click the button below to download_`
                     text: "        🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/b06744135f2f12ec4b4be.jpg' } }, { upload: Taira.waUploadToServer })),
+                    ...(await prepareWAMessageMedia({ image: { url: 'https://i.imgur.com/Xi87P5B.jpeg' } }, { upload: Taira.waUploadToServer })),
 
 
                     title: "                      Command list",
