@@ -7105,17 +7105,41 @@ _Click the button below to download_`
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            𝚫𝚴𝐉𝚫𝚴 𝚳𝐃 𝛁2"
+                    text: "        🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/b06744135f2f12ec4b4be.jpg' } }, { upload: Taira.waUploadToServer })),
 
 
-                    title: "                       list of command",
+                    title: "                      Command list",
                     subtitle: "Browse through the available commands",
                     hasMediaAttachment: false
                   }),
-                {});
+                  nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+                    buttons: [
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"OWNER 🫠","id":'${prefix}owner'}`
+                      },
+                      {
+                        "name": "cta_url",
+                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/Mranjan101/Mr-anjannewbot","merchant_url":"https://github.com/Mranjan101/Mr-anjannewbot"}`
+
+                      },
+                      {
+                        "name": "cta_url",
+                        "buttonParamsJson": `{"display_text":"WA GROUP 📰","url":"https://chat.whatsapp.com/DDTeSuCbP4BLgBkEqNoUqg","merchant_url":"https://chat.whatsapp.com/DDTeSuCbP4BLgBkEqNoUqg"}`
+                      },
+                      {
+                        "name": "cta_url",
+                        "buttonParamsJson": `{"display_text":"★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★🫡","url":"https://wa.me/919883457657","merchant_url":"https://wa.me/919883457657"}`
+                      }
+                    ]
+                  })
+                })
+              }
+            }
+          }, {});
 
 
           if (!msg || !msg.key || !msg.key.remoteJid || !msg.key.id) {
